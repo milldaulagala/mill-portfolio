@@ -1,0 +1,333 @@
+
+/* Header */
+.millhead {
+    display: flex;
+    justify-content: left;
+    background: #114A66;
+    color: #EFFDDD;
+}
+
+.mill-portfolio {
+    display: flex;
+    align-items: center;
+}
+
+.mill-title {
+    margin: 0 .35em;
+}
+
+.description {
+    margin: 0;
+    font-size: .9em;
+    font-style: normal;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+/* Mill Content */
+.mill-content {
+    color: #F8BD7F;
+}
+
+/* Main Grid using Template Areas */
+
+.mill-content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main"
+    "navigation"
+    "social";
+}
+
+.main-area {
+    grid-area: main;
+    background: #0D5C63;
+}
+
+.social-media {
+    grid-area: social;
+    background: #114A66;
+}
+
+.navigation-area {
+    grid-area: navigation;
+}
+
+@media screen and (min-width: 1000px) {
+    .mill-content {
+        grid-template-columns: 1fr 300px;
+        grid-template-rows: 250px auto;
+        grid-template-areas:
+        "main navigation"
+        "main social"
+    }
+
+}
+
+/* main area */
+.main-area {
+    border-top: 1px solid #114A66;
+    padding: 1em;
+}
+
+.portfolio-title {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    color: #EFFDDD;
+    
+    
+}
+
+.intro {
+    box-sizing: content-box;
+    margin: 0 -1em;
+    padding: 1em 2em;
+    color: #114A66;
+    background: #EFFDDD;
+    
+}
+
+.intro p {
+    font-style: normal;
+}
+
+.main-area p {
+    font-size: .9em;
+    line-height: 1.3em;
+}
+.social-media {
+    margin: 0;
+    padding: 1em;
+    background: #114A66;
+}
+
+@media screen and (min-width: 500px) {
+
+    .main-area {
+        margin: 2em;
+    }
+
+    .portfolio-title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .intro p {
+        max-width: 550px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .social-media {
+        margin: 0;
+        padding: 1em;
+        background: #114A66;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main-area {
+        margin: 0 2em;
+        border-top: none;
+    }
+}
+
+/* Breakdown */
+.skilltext {
+    margin: 0;
+    background: #0D5C63;
+}
+
+
+
+.skill {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #F8BD7F;
+}
+
+
+.skill-title {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 700px) {
+
+    /* *******************************************************
+     * Content Grid using numbered lines                                     
+     * *******************************************************/
+    .structure {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: auto;
+    }
+
+    .intro {
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    
+
+    .skilltext p {
+        font-size: .8em;
+    }
+
+    .skill {
+        padding: 1em 2em;
+        border-top: 1px solid #F8BD7F;
+        border-bottom: none
+    }
+
+    .skill1-text {
+        grid-column: 1/3;
+        grid-row: 2/4;
+        margin: auto;
+    }
+
+    .skill2-text {
+        grid-column: 1/3;
+        grid-row: 4/6;
+        margin: auto;
+    }
+
+    .skill3-text {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .skill4-text {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .skill5-text {
+        grid-column: 3/4;
+        grid-row: 3/6;
+    }
+
+    .skill6-text {
+        grid-column: 4/5;
+        grid-row: 3/6;
+    }
+
+    .skill1-body {
+        grid-column: 1/3;
+        grid-row: 6/7;
+        border-right: 1px solid #F8BD7F;
+    }
+
+    .skill2-body {
+        grid-column: 3/5;
+        grid-row: 6/7;
+    }
+
+    .skill3-body {
+        grid-column: 1/3;
+        grid-row: 7/8;
+        border-right: 1px solid #F8BD7F;
+    }
+
+    .skill4-body {
+        grid-column: 3/5;
+        grid-row: 7/8;
+    }
+
+    .skill5-body {
+        grid-column: 1/3;
+        grid-row: 8/9;
+        border-right: 1px solid #F8BD7F;
+        border-bottom: 1px solid #F8BD7F;
+    }
+
+    .skill6-body {
+        grid-column: 3/5;
+        grid-row: 8/9;
+        border-bottom: 1px solid #F8BD7F;
+    }
+}
+
+/* social media */
+.social-media {
+    margin: 1em;
+}
+
+@media screen and (min-width: 700px) {
+    .social-media {
+        margin: 0;
+        padding: 1em;
+        background: #114A66;
+    }
+}
+
+/* navigation area */
+.navigation-area {
+    margin: 0 auto;
+    width: 320px;
+    background: #EFFDDD;
+}
+
+.navigation-area a {
+    display: block;
+    text-decoration: none;
+}
+
+.navi {
+    position: relative;
+    width: 300px;
+    margin: 0.555555em;
+}
+
+
+
+
+.navi h3 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.navi p {
+    margin: 0;
+}
+
+@media screen and (min-width: 620px) and (max-width: 1000px) {
+
+    .navigation-area {
+        width: 100%;
+    }
+
+    .navi {
+        display: flex;
+        justify-content: center;
+        margin: 2em auto;
+        width: 620px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .navigation-area {
+        margin: 0;
+        width: 300px;
+    }
+
+    .navi {
+        margin: 0;
+    }
+}
+
+/* mill footer */
+.mill-footer {
+    margin-top: 4em;
+    padding: 2em;
+    color: #114A66;
+    text-align: center;
+    background-color:#EFFDDD;
+}
+
+@media screen and (min-width: 700px) {
+    .mill-footer {
+        margin-top: 0;
+    }
+}
