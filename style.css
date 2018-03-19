@@ -1,4 +1,10 @@
 
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
 /* Header */
 .millhead {
     display: flex;
@@ -7,9 +13,10 @@
     color: #EFFDDD;
 }
 
+
 .mill-portfolio {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .mill-title {
@@ -43,7 +50,7 @@
 
 .main-area {
     grid-area: main;
-    background: #0D5C63;
+    background: #114A66;
 }
 
 .social-media {
@@ -51,10 +58,6 @@
     background: #114A66;
 }
 
-.navigation-area {
-    grid-area: navigation;
-    background: #EFFDDD;
-}
 
 @media screen and (min-width: 1000px) {
     .mill-content {
@@ -148,7 +151,7 @@
 /* Breakdown */
 .skilltext {
     margin: 0;
-    background: #0D5C63;
+    background: #114A66;
 }
 
 
@@ -207,21 +210,25 @@
     .skill3-text {
         grid-column: 3/4;
         grid-row: 2/3;
+        
     }
 
     .skill4-text {
         grid-column: 4/5;
         grid-row: 2/3;
+        
     }
 
     .skill5-text {
         grid-column: 3/4;
         grid-row: 3/6;
+        
     }
 
     .skill6-text {
         grid-column: 4/5;
         grid-row: 3/6;
+        
     }
 
     .skill1-body {
@@ -318,6 +325,10 @@
         margin: 2em auto;
         width: 620px;
         
+    }
+
+    .navi img{
+        width: 50%;
     }
     
 }
