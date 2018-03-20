@@ -1,0 +1,40 @@
+<svg width="126" height="70" viewBox="0 0 126 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1796 -9)">
+<g id="Group">
+<g id="Rectangle 11">
+<use xlink:href="#path0_fill" transform="translate(1796 9)" fill="#114A66"/>
+</g>
+<g id="Rectangle 12">
+<use xlink:href="#path1_fill" transform="translate(1803 16)" fill="#114A66"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(1803 16)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(1803 16)" fill="#EFFDDD"/>
+</g>
+</g>
+<g id="Rectangle 13">
+<use xlink:href="#path3_fill" transform="translate(1813 26)" fill="#114A66"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path3_fill" fill="white" transform="translate(1813 26)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path4_stroke_2x" transform="translate(1813 26)" fill="#EFFDDD"/>
+</g>
+</g>
+<g id="MILL">
+<use xlink:href="#path5_fill" transform="translate(1831 30)" fill="#EFFDDD"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 126 0L 126 70L 0 70L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 112 0L 112 56L 0 56L 0 0Z"/>
+<path id="path2_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 112 0L 114 0L 114 -2L 112 -2L 112 0ZM 112 56L 112 58L 114 58L 114 56L 112 56ZM 0 56L -2 56L -2 58L 0 58L 0 56ZM 0 2L 112 2L 112 -2L 0 -2L 0 2ZM 110 0L 110 56L 114 56L 114 0L 110 0ZM 112 54L 0 54L 0 58L 112 58L 112 54ZM 2 56L 2 0L -2 0L -2 56L 2 56Z"/>
+<path id="path3_fill" d="M 0 0L 92 0L 92 36L 0 36L 0 0Z"/>
+<path id="path4_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 92 0L 93 0L 93 -1L 92 -1L 92 0ZM 92 36L 92 37L 93 37L 93 36L 92 36ZM 0 36L -1 36L -1 37L 0 37L 0 36ZM 0 1L 92 1L 92 -1L 0 -1L 0 1ZM 91 0L 91 36L 93 36L 93 0L 91 0ZM 92 35L 0 35L 0 37L 92 37L 92 35ZM 1 36L 1 0L -1 0L -1 36L 1 36Z"/>
+<path id="path5_fill" d="M 20.748 6.648L 20.748 24L 17.904 24L 17.904 12.792C 17.904 12.344 17.928 11.86 17.976 11.34L 12.732 21.192C 12.484 21.664 12.104 21.9 11.592 21.9L 11.136 21.9C 10.624 21.9 10.244 21.664 9.996 21.192L 4.692 11.304C 4.716 11.568 4.736 11.828 4.752 12.084C 4.768 12.34 4.776 12.576 4.776 12.792L 4.776 24L 1.932 24L 1.932 6.648L 4.368 6.648C 4.512 6.648 4.636 6.652 4.74 6.66C 4.844 6.668 4.936 6.688 5.016 6.72C 5.104 6.752 5.18 6.804 5.244 6.876C 5.316 6.948 5.384 7.044 5.448 7.164L 10.644 16.8C 10.78 17.056 10.904 17.32 11.016 17.592C 11.136 17.864 11.252 18.144 11.364 18.432C 11.476 18.136 11.592 17.852 11.712 17.58C 11.832 17.3 11.96 17.032 12.096 16.776L 17.22 7.164C 17.284 7.044 17.352 6.948 17.424 6.876C 17.496 6.804 17.572 6.752 17.652 6.72C 17.74 6.688 17.836 6.668 17.94 6.66C 18.044 6.652 18.168 6.648 18.312 6.648L 20.748 6.648ZM 27.8595 24L 24.6195 24L 24.6195 6.648L 27.8595 6.648L 27.8595 24ZM 41.9085 21.336L 41.9085 24L 31.7445 24L 31.7445 6.648L 34.9725 6.648L 34.9725 21.336L 41.9085 21.336ZM 54.3773 21.336L 54.3773 24L 44.2132 24L 44.2132 6.648L 47.4413 6.648L 47.4413 21.336L 54.3773 21.336Z"/>
+</defs>
+</svg>
