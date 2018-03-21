@@ -113,7 +113,8 @@ The following one is the thrid design.
 
 #### structure (CSS-grid) 
 
-```.mill-content {
+```
+.mill-content {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -167,6 +168,7 @@ The first mobile view appered as following screen shot.
 This is how the header with logo and introduction appear.
 
 ![Second mobile view](screen-shots/second-mobile.png "Second mobile view")
+
 
 ## Third mobile view. 
 

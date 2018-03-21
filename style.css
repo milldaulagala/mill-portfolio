@@ -373,3 +373,37 @@ ul, li{
     list-style:none;
     list-style-type:none;
 }
+
+.mill-contact {
+    color: #EFFDDD;
+    background: #114A66;
+}
+
+.contact-form p {
+    /* margin: 0 auto; */
+    text-align: center;
+    
+}
+
+.form-name {
+    margin-top: 80px;
+    height: 20px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.form-email {
+    
+    height: 20px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.form-text {
+    
+    height: 100px;
+    width: 300px;
+    border-radius: 4px;
+    margin-left: 225px;
+}
+
