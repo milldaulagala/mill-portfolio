@@ -228,4 +228,23 @@ After satisfied look on mobile view i started the larger screen view.
         
     }
 ```
+## git
 
+-  I keep adding the mill-portfolio.html, style.css and images to git.
+-  Then i commit the project with  message and kept a note of the changes what each draft has.
+
+- The next step was push the project to the github.
+
+## Problems encountered
+
+- I had a few problems while i was aligning the grid.
+
+- The project wasn't reachable on netlify after i deploy the portfolio.
+The problem was i named the html file as mill-portfolio.html insted of index.html.
+- I changed mill-portfolio.html to index.html and push it github. It worked.
+
+
+## Lot of Thanks
+
+- I am grateful to Ruegen, Matt, Gretch and all the friends in the class.
+- It was challenging but with all the help and guidance, made my first css project is a succesful one. 
