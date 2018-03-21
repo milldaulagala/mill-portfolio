@@ -195,12 +195,37 @@ After satisfied look on mobile view i started the larger screen view.
 
 ## CSS-grid
 
-- Few things about css grid. First of all it is an amazing library.  I wasn't able to do this type of cool tricks with old school table layout while i was at the university. 
+- Few things about css grid. First of all it is an amazing concept.  I wasn't able to do this type of cool tricks with old school table layout while i was at the university. 
 
 - I will be learning css-grid and use it whenever i can.
 
 ![css-grid view](screen-shots/css-grid-skill.png "css-grid view")
 
 
+### css-grid manipulation
 
+- I had difficulty of understanding the grid layout in the begining of the grid.
+- The goal was to bring the skills titles to an one place on the top. 
+
+- The following css did the trick. 
+
+```
+ .skill1-text {
+        grid-column: 1/3;
+        grid-row: 2/4;
+        margin: auto;
+    }
+
+    .skill2-text {
+        grid-column: 1/3;
+        grid-row: 4/6;
+        margin: auto;
+    }
+
+    .skill3-text {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        
+    }
+```
 
